@@ -24,7 +24,7 @@ void setup()
 void draw()
 {  
    if  (myPort.available() > 0 && b == 0){
-        myPort.write("T1496245107");
+        myPort.write("T1496245107"); ## Se configura el tiempo Unix
         b++;
         }
         
